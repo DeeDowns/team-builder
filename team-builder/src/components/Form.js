@@ -7,12 +7,14 @@ const StyledForm = styled.form `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 70%;
+    border: 3px solid #581845;
+    box-shadow: 5px 10px;
 
     h2 {
         font-size: 3.5rem;
         text-align: center;
-        width: 60%;
+        width: 70%;
         margin: 3%;
     }
 
@@ -21,7 +23,7 @@ const StyledForm = styled.form `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 40%;
+        width: 50%;
     }
 
     .inputs label {

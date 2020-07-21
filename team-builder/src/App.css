@@ -4,12 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family:  'Quicksand', sans-serif;;
 }
 
 h1 {
   font-size: 4rem;
   text-align: center;
-  border-bottom: 3px solid red;
+  border-bottom: 10px double #581845;
   width: 50%;
   margin: 3%;
 }

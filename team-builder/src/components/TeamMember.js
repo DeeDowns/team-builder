@@ -8,10 +8,10 @@ const StyledTeamMember = styled.div `
     width: 50%;
     text-align: center;
     margin: 3%;
-    border: 3px solid red;
+    border: 3px solid #581845;
+    box-shadow: 5px 10px;
 
     h3 {
-        color: red;
         font-size: 3rem;
     }
 
