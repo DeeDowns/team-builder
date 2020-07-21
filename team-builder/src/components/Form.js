@@ -7,14 +7,15 @@ const StyledForm = styled.form `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 50%;
     border: 3px solid #581845;
     box-shadow: 5px 10px;
+    background-color: white;
 
     h2 {
         font-size: 3.5rem;
         text-align: center;
-        width: 70%;
+        width: 80%;
         margin: 3%;
     }
 
