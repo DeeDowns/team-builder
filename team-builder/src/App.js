@@ -27,6 +27,7 @@ function App() {
   const submitForm = () => {
     const newTeamMember = { name: formValues.name.trim()}
     setTeamMember([newTeamMember, ...teamMember])
+    setFormValues(initialFormValues)
     if(!newTeamMember.name) return
   }
 
