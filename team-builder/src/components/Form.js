@@ -36,7 +36,12 @@ const StyledForm = styled.form `
     button {
         width: 20%;
         margin: 3%;
-        font-size: 2.5rem;
+        font-size: 2rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+            text-transform: lowercase;
+        }
     }
 
 `
